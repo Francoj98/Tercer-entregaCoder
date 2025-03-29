@@ -96,11 +96,20 @@ footer .redes {
   border: 20px 20px 0 20px;
 }
 
-.compra {
+.position {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.position .compra {
   display: flex;
   align-items: center;
   margin: 20px;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+.position .compra .carro {
+  background-color: #1e3932;
+  color: white;
 }
 
 .cuota {
@@ -108,7 +117,19 @@ footer .redes {
   font-size: smaller;
 }
 
-.tienda {
+.tarjetashop {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tienda-cafe {
   display: grid;
   grid-template-columns: 5fr, 5fr 5fr;
   grid-template-rows: 1fr, 1fr, 1fr;
@@ -116,14 +137,14 @@ footer .redes {
 }
 
 @media (max-width: 768px) {
-  .tienda {
+  .tienda-cafe {
     grid-template-columns: repeat(2, 5fr);
     grid-template-rows: repeat(5, 1fr);
     grid-template-areas: "uno dos" "tres cuatro" "cinco seis" "siete ocho" "nueve diez";
   }
 }
 @media (max-width: 425px) {
-  .tienda {
+  .tienda-cafe {
     grid-template-columns: 5fr;
     grid-template-rows: repeat(9, 1fr);
     grid-template-areas: "uno" "dos" "tres" "cuatro" "cinco" "seis" "siete" "ocho" "nueve";
@@ -167,6 +188,170 @@ footer .redes {
 
 .areadiez {
   grid-area: diez;
+}
+
+.tienda-capsula {
+  display: grid;
+  grid-template-columns: 5fr, 5fr 5fr;
+  grid-template-rows: 1fr, 1fr;
+  grid-template-areas: "uno dos tres" "cuatro cinco seis";
+}
+
+.areauno {
+  grid-area: uno;
+}
+
+.areados {
+  grid-area: dos;
+}
+
+.areatres {
+  grid-area: tres;
+}
+
+.areacuatro {
+  grid-area: cuatro;
+}
+
+.areacinco {
+  grid-area: cinco;
+}
+
+.areaseis {
+  grid-area: seis;
+}
+
+@media (max-width: 768px) {
+  .tienda-capsula {
+    grid-template-columns: repeat(2, 5fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "uno dos" "tres cuatro";
+  }
+}
+@media (max-width: 425px) {
+  .tienda-capsula {
+    grid-template-columns: 5fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "uno" "dos" "tres" "cuatro";
+  }
+}
+.tienda-vaso {
+  display: grid;
+  grid-template-columns: 5fr, 5fr 5fr;
+  grid-template-rows: 1fr, 1fr;
+  grid-template-areas: "uno dos tres" "cuatro cinco seis";
+}
+
+.areauno {
+  grid-area: uno;
+}
+
+.areados {
+  grid-area: dos;
+}
+
+.areatres {
+  grid-area: tres;
+}
+
+.areacuatro {
+  grid-area: cuatro;
+}
+
+.areacinco {
+  grid-area: cinco;
+}
+
+.areaseis {
+  grid-area: seis;
+}
+
+@media (max-width: 768px) {
+  .tienda-vaso {
+    grid-template-columns: repeat(2, 5fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "uno dos" "tres cuatro" "cinco seis";
+  }
+}
+@media (max-width: 425px) {
+  .tienda-vaso {
+    grid-template-columns: 5fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "uno" "dos" "tres" "cuatro" "cinco";
+  }
+}
+.tienda-taza {
+  display: grid;
+  grid-template-columns: 5fr, 5fr 5fr;
+  grid-template-areas: "uno dos tres";
+}
+
+.areauno {
+  grid-area: uno;
+}
+
+.areados {
+  grid-area: dos;
+}
+
+.areatres {
+  grid-area: tres;
+}
+
+.areacuatro {
+  grid-area: cuatro;
+}
+
+@media (max-width: 768px) {
+  .tienda-taza {
+    grid-template-columns: repeat(2, 5fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "uno dos" "tres cuatro";
+  }
+}
+@media (max-width: 425px) {
+  .tienda-taza {
+    grid-template-columns: 5fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "uno" "dos" "tres";
+  }
+}
+.menu {
+  width: 50px;
+  height: 50px;
+}
+
+.shopp {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.shopp .carro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1e3932;
+  color: white;
+}
+
+.txt-car {
+  width: 300px;
+}
+
+.inside-car {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.end-car {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.categorias {
+  border-radius: 0%;
 }
 
 .marcaimg {
@@ -267,6 +452,4 @@ img.imgcafedos {
 .maps {
   width: 100%;
   height: 640px;
-}
-
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=estilos.css.map */

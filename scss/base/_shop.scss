@@ -1,8 +1,17 @@
-.compra{
+.position{
     display: flex;
     align-items: center;
-    margin: 20px;
-    justify-content: space-between;
+    justify-content: space-around;
+    .compra{
+        display: flex;
+        align-items: center;
+        margin: 20px;
+        justify-content: space-around;
+        .carro{
+            background-color: $colorprimario;
+            color: $colorsecundario;
+        }
+    }
 }
 
 .cuota{
@@ -10,7 +19,19 @@
     font-size: smaller;
 }
 
-.tienda{
+.tarjetashop{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tienda-cafe{
     display: grid;
     grid-template-columns: 5fr, 5fr 5fr;
     grid-template-rows: 1fr, 1fr, 1fr;
@@ -21,7 +42,7 @@
 }
 
 @media (max-width:768px){
-    .tienda{
+    .tienda-cafe{
         grid-template-columns: repeat(2, 5fr);
         grid-template-rows: repeat(5, 1fr);
         grid-template-areas: 
@@ -34,7 +55,7 @@
 }
 
 @media (max-width:425px){
-    .tienda{
+    .tienda-cafe{
         grid-template-columns: 5fr;
         grid-template-rows: repeat(9, 1fr);
         grid-template-areas: 
@@ -79,4 +100,184 @@
 }
 .areadiez{
     grid-area: diez;
+}
+
+.tienda-capsula{
+    display: grid;
+    grid-template-columns: 5fr, 5fr 5fr;
+    grid-template-rows: 1fr, 1fr;
+    grid-template-areas: 
+    "uno dos tres"
+    "cuatro cinco seis";
+}
+
+.areauno{
+    grid-area: uno;
+}
+.areados{
+    grid-area: dos;
+}
+.areatres{
+    grid-area: tres;
+}
+.areacuatro{
+    grid-area: cuatro;
+}
+.areacinco{
+    grid-area: cinco;
+}
+.areaseis{
+    grid-area: seis;
+}
+
+@media (max-width:768px){
+    .tienda-capsula{
+        grid-template-columns: repeat(2, 5fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+        "uno dos"
+        "tres cuatro";
+    }
+}
+
+@media (max-width:425px){
+    .tienda-capsula{
+        grid-template-columns: 5fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas: 
+        "uno" 
+        "dos"
+        "tres" 
+        "cuatro";
+    }
+}
+
+.tienda-vaso{
+    display: grid;
+    grid-template-columns: 5fr, 5fr 5fr;
+    grid-template-rows: 1fr, 1fr;
+    grid-template-areas: 
+    "uno dos tres"
+    "cuatro cinco seis";
+}
+
+.areauno{
+    grid-area: uno;
+}
+.areados{
+    grid-area: dos;
+}
+.areatres{
+    grid-area: tres;
+}
+.areacuatro{
+    grid-area: cuatro;
+}
+.areacinco{
+    grid-area: cinco;
+}
+.areaseis{
+    grid-area: seis;
+}
+
+@media (max-width:768px){
+    .tienda-vaso{
+        grid-template-columns: repeat(2, 5fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+        "uno dos"
+        "tres cuatro"
+        "cinco seis";
+    }
+}
+
+@media (max-width:425px){
+    .tienda-vaso{
+        grid-template-columns: 5fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas: 
+        "uno" 
+        "dos"
+        "tres" 
+        "cuatro"
+        "cinco";
+    }
+}
+
+.tienda-taza{
+    display: grid;
+    grid-template-columns: 5fr, 5fr 5fr;
+    grid-template-areas: 
+    "uno dos tres";
+}
+
+.areauno{
+    grid-area: uno;
+}
+.areados{
+    grid-area: dos;
+}
+.areatres{
+    grid-area: tres;
+}
+.areacuatro{
+    grid-area: cuatro;
+}
+
+@media (max-width:768px){
+    .tienda-taza{
+        grid-template-columns: repeat(2, 5fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+        "uno dos"
+        "tres cuatro";
+    }
+}
+
+@media (max-width:425px){
+    .tienda-taza{
+        grid-template-columns: 5fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+        "uno" 
+        "dos"
+        "tres";
+    }
+}
+
+.menu{
+    width: 50px;
+    height: 50px;
+}
+
+.shopp{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    .carro{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $colorprimario;
+        color: $colorsecundario;
+    }
+}
+
+.txt-car{
+    width: 300px;
+}
+.inside-car{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.end-car{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.categorias{
+    border-radius: 0%;
 }

@@ -70,90 +70,308 @@
             </ul> 
         </div>
     </nav> 
-   <section class="tienda">
-        <div class="card compra" style="width: 18rem;">
-            <img src="../images/shop-cafe/colombia-shopp.jpeg" class="card-img-top" alt="cafe colombia">
-            <div class="card-body">
-                <h5 class="card-title">Starbucks®Colombia</h5>
-                <p class="card-text">$21000</p>
-                <p class="card-text cuota">Mismo precio en 3 cuotas de $7000</p>
-                <a href="#" class="btn btn-primary">Agregar al carro</a>
+    <section class="shopp">
+        <div class="dropdown">
+            <button class="btn carro dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categoria
+            </button>
+            <ul class="dropdown-menu categorias">
+              <li><a class="dropdown-item" href="#granos">Granos de cafe</a></li>
+              <li><a class="dropdown-item" href="#capsulas">Capsulas</a></li>
+              <li><a class="dropdown-item" href="#vasos">Vasos</a></li>
+              <li><a class="dropdown-item" href="#tazas">Tazas</a></li>
+            </ul>
+          </div>
+        <div class="btn-group dropstart carro">
+            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart"   viewBox="0 0 16 16">
+                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                </svg>
+            </button>
+            <ul class="dropdown-menu">
+                <div class="card mb-3">
+                    <div class="row g-0 inside-car">
+                        <div class="col-md-4">
+                            <img src="../images/shop-cafe/colombia-shopp.jpeg" class="img-fluid rounded-start" alt="cafe colombia">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title txt-car">Starbucks®Colombia</h5>
+                                <p class="card-text">$21000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="row g-0 inside-car">
+                        <div class="col-md-4">
+                            <img src="../images/shop-cafe/espresso-shop.jpg" class="img-fluid rounded-start" alt="cafe espresso">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title txt-car">Starbucks®Espresso</h5>
+                                <p class="card-text">$21000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="end-car">
+                    <a href="#" class="btn carro">Finalizar compra</a>
+                </div>
+            </ul>
+        </div>
+    </section>
+    <section class="intro" id="granos">
+        <h1 class="txtintro">Granos de café</h1>
+    </section>
+    <section class="tienda-cafe tarjetashop">
+        <div class="position">
+            <div class="card compra" style="width: 18rem;">
+                <img src="../images/shop-cafe/colombia-shopp.jpeg" class="card-img-top" alt="cafe colombia">
+                <div class="card-body">
+                    <h5 class="card-title">Starbucks®Colombia</h5>
+                    <p class="card-text">$21000</p>
+                    <p class="card-text cuota">Mismo precio en <strong>3 cuotas sin interes de $7000</strong></p>
+                    <a href="#" class="btn carro">Agregar al carro</a>
+                </div>
             </div>
         </div>
-        <div class="card compra" style="width: 18rem;">
-            <img src="../images/shop-cafe/espresso-shop.jpg" class="card-img-top" alt="cafe espresso">
-            <div class="card-body">
-                <h5 class="card-title">Starbucks®Espresso Roast</h5>
-                <p class="card-text">$21000</p>
-                <p class="card-text cuota">Mismo precio en 3 cuotas de $7000</p>
-                <a href="#" class="btn btn-primary">Agregar al carro</a>
+        <div class="position">
+            <div class="card compra" style="width: 18rem;">
+                <img src="../images/shop-cafe/espresso-shop.jpg" class="card-img-top" alt="cafe espresso">
+                <div class="card-body">
+                    <h5 class="card-title">Starbucks®Espresso</h5>
+                    <p class="card-text">$21000</p>
+                    <p class="card-text cuota">Mismo precio en <strong>3 cuotas sin interes de $7000</strong></p>
+                    <a href="#" class="btn carro">Agregar al carro</a>
+                </div>
             </div>
         </div>
-        <div class="card compra" style="width: 18rem;">
-            <img src="../images/shop-cafe/guate-shopp.jpeg" class="card-img-top" alt="cafe guatemala">
-            <div class="card-body">
-                <h5 class="card-title">Starbucks®Guatemala</h5>
-                <p class="card-text">$25500</p>
-                <p class="card-text cuota">Mismo precio en 3 cuotas de $8500</p>
-                <a href="#" class="btn btn-primary">Agregar al carro</a>
-            </div>
-        </div>    
-         <div class="card compra" style="width: 18rem;">
-            <img src="../images/shop-cafe/house-shopp.jpeg" class="card-img-top" alt="cafe house blend">
-            <div class="card-body">
-                <h5 class="card-title">Starbucks®House blend</h5>
-                <p class="card-text">$25500</p>
-                <p class="card-text cuota">Mismo precio en 3 cuotas de $8500</p>
-                <a href="#" class="btn btn-primary">Agregar al carro</a>
+        <div class="position">
+            <div class="card compra" style="width: 18rem;">
+                <img src="../images/shop-cafe/guate-shopp.jpeg" class="card-img-top" alt="cafe guatemala">
+                <div class="card-body">
+                    <h5 class="card-title">Starbucks®Guatemala</h5>
+                    <p class="card-text">$25500</p>
+                    <p class="card-text cuota">Mismo precio en <strong>3 cuotas sin interes de $8500</strong></p>
+                    <a href="#" class="btn carro">Agregar al carro</a>
+                </div>
+            </div> 
+        </div>
+        <div class="position">
+            <div class="card compra" style="width: 18rem;">
+                <img src="../images/shop-cafe/house-shopp.jpeg" class="card-img-top" alt="cafe house blend">
+                <div class="card-body">
+                    <h5 class="card-title">Starbucks®House blend</h5>
+                    <p class="card-text">$25500</p>
+                    <p class="card-text cuota">Mismo precio en <strong>3 cuotas sin interes de $8500</strong></p>
+                    <a href="#" class="btn carro">Agregar al carro</a>
+                </div>
             </div>
         </div>
-        <div class="card compra" style="width: 18rem;">
-            <img src="../images/shop-cafe/kenia-shopp.jpeg" class="card-img-top" alt="cafe kenya">
-            <div class="card-body">
-                <h5 class="card-title">Starbucks®Kenya</h5>
-                <p class="card-text">$25500</p>
-                <p class="card-text cuota">Mismo precio en 3 cuotas de $8500</p>
-                <a href="#" class="btn btn-primary">Agregar al carro</a>
+        <div class="position">
+            <div class="card compra" style="width: 18rem;">
+                <img src="../images/shop-cafe/kenia-shopp.jpeg" class="card-img-top" alt="cafe kenya">
+                <div class="card-body">
+                    <h5 class="card-title">Starbucks®Kenya</h5>
+                    <p class="card-text">$25500</p>
+                    <p class="card-text cuota">Mismo precio en <strong>3 cuotas sin interes de $8500</strong></p>
+                    <a href="#" class="btn carro">Agregar al carro</a>
+                </div>
             </div>
         </div>
-        <div class="card compra" style="width: 18rem;">
-            <img src="../images/shop-cafe/pike-shopp.jpeg" class="card-img-top" alt="cafe pike place">
-            <div class="card-body">
-                <h5 class="card-title">Starbucks®Pike Place</h5>
-                <p class="card-text">$21000</p>
-                <p class="card-text cuota">Mismo precio en 3 cuotas de $7000</p>
-                <a href="#" class="btn btn-primary">Agregar al carro</a>
+        <div class="position">
+            <div class="card compra" style="width: 18rem;">
+                <img src="../images/shop-cafe/pike-shopp.jpeg" class="card-img-top" alt="cafe pike place">
+                <div class="card-body">
+                    <h5 class="card-title">Starbucks®Pike Place</h5>
+                    <p class="card-text">$21000</p>
+                    <p class="card-text cuota">Mismo precio en <strong>3 cuotas sin interes de $7000</strong></p>
+                    <a href="#" class="btn carro">Agregar al carro</a>
+                </div>
             </div>
         </div>
-        <div class="card compra" style="width: 18rem;">
-            <img src="../images/shop-cafe/sumatra-shopp.jpeg" class="card-img-top" alt="cafe sumatra">
-            <div class="card-body">
-                <h5 class="card-title">Starbucks®Sumatra</h5>
-                <p class="card-text">$21000</p>
-                <p class="card-text cuota">Mismo precio en 3 cuotas de $7000</p>
-                <a href="#" class="btn btn-primary">Agregar al carro</a>
+        <div class="position">
+            <div class="card compra" style="width: 18rem;">
+                <img src="../images/shop-cafe/sumatra-shopp.jpeg" class="card-img-top" alt="cafe sumatra">
+                <div class="card-body">
+                    <h5 class="card-title">Starbucks®Sumatra</h5>
+                    <p class="card-text">$21000</p>
+                    <p class="card-text cuota">Mismo precio en <strong>3 cuotas sin interes de $7000</strong></p>
+                    <a href="#" class="btn carro">Agregar al carro</a>
+                </div>
             </div>
         </div>
-        <div class="card compra" style="width: 18rem;">
-            <img src="../images/shop-cafe/verona-shopp.jpeg" class="card-img-top" alt="cafe verona">
-            <div class="card-body">
-                <h5 class="card-title">Starbucks®Verona</h5>
-                <p class="card-text">$25500</p>
-                <p class="card-text cuota">Mismo precio en 3 cuotas de $8500</p>
-                <a href="#" class="btn btn-primary">Agregar al carro</a>
+        <div class="position">
+            <div class="card compra" style="width: 18rem;">
+                <img src="../images/shop-cafe/verona-shopp.jpeg" class="card-img-top" alt="cafe verona">
+                <div class="card-body">
+                    <h5 class="card-title">Starbucks®Verona</h5>
+                    <p class="card-text">$25500</p>
+                    <p class="card-text cuota">Mismo precio en <strong>3 cuotas sin interes de $8500</strong></p>
+                    <a href="#" class="btn carro">Agregar al carro</a>
+                </div>
             </div>
         </div>
-        <div class="card compra" style="width: 18rem;">
-            <img src="../images/shop-cafe/ethiopia-shopp.jpeg" class="card-img-top" alt="cafe ethiopia">
-            <div class="card-body">
-                <h5 class="card-title">Starbucks®Ethiopia</h5>
-                <p class="card-text">$21000</p>
-                <p class="card-text cuota">Mismo precio en 3 cuotas de $7000</p>
-                <a href="#" class="btn btn-primary">Agregar al carro</a>
+        <div class="position">
+            <div class="card compra" style="width: 18rem;">
+                <img src="../images/shop-cafe/ethiopia-shopp.jpeg" class="card-img-top" alt="cafe ethiopia">
+                <div class="card-body">
+                    <h5 class="card-title">Starbucks®Ethiopia</h5>
+                    <p class="card-text">$21000</p>
+                    <p class="card-text cuota">Mismo precio en <strong>3 cuotas sin interes de $7000</strong></p>
+                    <a href="#" class="btn carro">Agregar al carro</a>
+                </div>
             </div>
         </div>
     </section>
-    <script src="../css/js/bootstrap.min.js"></script>
+    <section class="intro" id="capsulas">
+        <h1 class="txtintro">Capsulas Nespresso</h1>
+    </section>
+    <section class="tienda-capsula tarjetashop">
+        <div class="position">
+            <div class="card compra" style="width: 18rem;">
+                <img src="../images/shop-cafe/Blonde-Espresso.jpeg" class="card-img-top" alt="capsula-blonde">
+                <div class="card-body">
+                    <h5 class="card-title">Starbucks®Capsula Nespresso Blonde Espresso</h5>
+                    <p class="card-text">$21000</p>
+                    <p class="card-text cuota">Mismo precio en <strong>3 cuotas sin interes de $7000</strong></p>
+                    <a href="#" class="btn carro">Agregar al carro</a>
+                </div>
+            </div>
+        </div>
+        <div class="position">
+            <div class="card compra" style="width: 18rem;">
+                <img src="../images/shop-cafe/Nespresso-Colombia.jpeg" class="card-img-top" alt="capsula-colombia">
+                <div class="card-body">
+                    <h5 class="card-title">Starbucks®Capsula Nespresso Colombia</h5>
+                    <p class="card-text">$21000</p>
+                    <p class="card-text cuota">Mismo precio en <strong>3 cuotas sin interes de $7000</strong></p>
+                    <a href="#" class="btn carro">Agregar al carro</a>
+                </div>
+            </div>
+        </div>
+        <div class="position">
+            <div class="card compra" style="width: 18rem;">
+                <img src="../images/shop-cafe/Nespresso-Pike-Place.jpeg" class="card-img-top" alt="capsula-pike place">
+                <div class="card-body">
+                    <h5 class="card-title">Starbucks®Capsula Nespresso Pike place</h5>
+                    <p class="card-text">$21000</p>
+                    <p class="card-text cuota">Mismo precio en <strong>3 cuotas sin interes de $7000</strong></p>
+                    <a href="#" class="btn carro">Agregar al carro</a>
+                </div>
+            </div>
+        </div>
+        <div class="position">
+            <div class="card compra" style="width: 18rem;">
+                <img src="../images/shop-cafe/Nespresso-Espresso-Decaff.jpeg" class="card-img-top" alt="capsula-espresso decaf">
+                <div class="card-body">
+                    <h5 class="card-title">Starbucks®Capsula Nespresso Espresso Decaf</h5>
+                    <p class="card-text">$21000</p>
+                    <p class="card-text cuota">Mismo precio en <strong>3 cuotas sin interes de $7000</strong></p>
+                    <a href="#" class="btn carro">Agregar al carro</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="intro" id="vasos">
+        <h1 class="txtintro">Vasos</h1>
+    </section>
+    <section class="tienda-vaso tarjetashop">
+        <div class="position">
+            <div class="card compra" style="width: 18rem;">
+                <img src="../images/shop-cafe/vaso_cold_cup_blanco_reutilizable_.png" class="card-img-top" alt="vaso reusable blanco">
+                <div class="card-body">
+                    <h5 class="card-title">Starbucks® Vaso Reusable blanco</h5>
+                    <p class="card-text">$9000</p>
+                    <p class="card-text cuota">Mismo precio en <strong>3 cuotas sin interes de $3000</strong></p>
+                    <a href="#" class="btn carro">Agregar al carro</a>
+                </div>
+            </div>
+        </div>
+        <div class="position">
+            <div class="card compra" style="width: 18rem;">
+                <img src="../images/shop-cafe/Cold-Cup-Matte Black.png" class="card-img-top" alt="vaso Negro mate">
+                <div class="card-body">
+                    <h5 class="card-title">Starbucks® Cold cup Negro Mate</h5>
+                    <p class="card-text">$49000</p>
+                    <p class="card-text cuota">Mismo precio en <strong>3 cuotas sin interes de $16333,33</strong></p>
+                    <a href="#" class="btn carro">Agregar al carro</a>
+                </div>
+            </div>
+        </div>
+        <div class="position">
+            <div class="card compra" style="width: 18rem;">
+                <img src="../images/shop-cafe/Merchand-Tumbler-Gray-Green.png" class="card-img-top" alt="cold cup grey green">
+                <div class="card-body">
+                    <h5 class="card-title">Starbucks® Cold Cup Greey-Green</h5>
+                    <p class="card-text">$50500</p>
+                    <p class="card-text cuota">Mismo precio en <strong>3 cuotas sin interes de $16833,33</strong></p>
+                    <a href="#" class="btn carro">Agregar al carro</a>
+                </div>
+            </div>
+        </div>
+        <div class="position">
+            <div class="card compra" style="width: 18rem;">
+                <img src="../images/shop-cafe/Tumbler-Luxor Matte-Black.png" class="card-img-top" alt="tumbler luxor mate black">
+                <div class="card-body">
+                    <h5 class="card-title">Starbucks® Tumbrer Luxor Matte Black</h5>
+                    <p class="card-text">$45000</p>
+                    <p class="card-text cuota">Mismo precio en <strong>3 cuotas sin interes de $15000</strong></p>
+                    <a href="#" class="btn carro">Agregar al carro</a>
+                </div>
+            </div>
+        </div>
+        <div class="position">
+            <div class="card compra" style="width: 18rem;">
+                <img src="../images/shop-cafe/Tumbler-Yavin Gray-Green.png" class="card-img-top" alt="tumbler yavin grey green">
+                <div class="card-body">
+                    <h5 class="card-title">Starbucks® Tumbler Yavin Greey-Green</h5>
+                    <p class="card-text">$59000</p>
+                    <p class="card-text cuota">Mismo precio en <strong>3 cuotas sin interes de $19666.66</strong></p>
+                    <a href="#" class="btn carro">Agregar al carro</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="intro" id="tazas">
+        <h1 class="txtintro">Tazas</h1>
+    </section>
+    <section class="tienda-taza tarjetashop">
+        <div class="position">
+            <div class="card compra" style="width: 18rem;">
+                <img src="../images/shop-cafe/Merchand-Mug-Siren-12oz .png" class="card-img-top" alt="taza sirena stone">
+                <div class="card-body">
+                    <h5 class="card-title">Starbucks® Mug Siren Stone</h5>
+                    <p class="card-text">$30000</p>
+                    <p class="card-text cuota">Mismo precio en <strong>3 cuotas sin interes de $10000</strong></p>
+                    <a href="#" class="btn carro">Agregar al carro</a>
+                </div>
+            </div>
+        </div>
+        <div class="position">
+            <div class="card compra" style="width: 18rem;">
+                <img src="../images/shop-cafe/Merchand-Mug-black.png" class="card-img-top" alt="taza mug black onyx">
+                <div class="card-body">
+                    <h5 class="card-title">Starbucks® Mug black Onyx</h5>
+                    <p class="card-text">$30000</p>
+                    <p class="card-text cuota">Mismo precio en <strong>3 cuotas sin interes de $10000</strong></p>
+                    <a href="#" class="btn carro">Agregar al carro</a>
+                </div>
+            </div>
+        </div>
+        <div class="position">
+            <div class="card compra" style="width: 18rem;">
+                <img src="../images/shop-cafe/Merchand-Bottle.png" class="card-img-top" alt="Botella starbucks">
+                <div class="card-body">
+                    <h5 class="card-title">Starbucks® Botella Orbit Metallic Green</h5>
+                    <p class="card-text">$45000</p>
+                    <p class="card-text cuota">Mismo precio en <strong>3 cuotas sin interes de $15000</strong></p>
+                    <a href="#" class="btn carro">Agregar al carro</a>
+                </div>
+            </div>
+        </div>
     <footer class="row">
         <div class="redes">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x red" viewBox="0 0 16 16">
@@ -169,9 +387,10 @@
                 <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
             </svg>
         </div>
-    <div class="row container text-center">
+        <div class="row container text-center">
             <small>&copy; 2024 <b>Starbucks Cofee company</b> - Todos los derechos reservados.</small>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
